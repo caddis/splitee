@@ -1,6 +1,6 @@
 # ExpressionEngine Content Splitter
 
-This extensions splits content into a set number of sections.
+This plugin splits content into a set number of sections.
 
 ## Parameters
 
