@@ -1,9 +1,9 @@
 <?php if (! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array (
-	'pi_name' => 'SplitEE',
-	'pi_version' => '1.0.0',
-	'pi_author' => 'Michael Leigeber',
+	'pi_name' => 'Splitee',
+	'pi_version' => '1.0.1',
+	'pi_author' => 'Caddis',
 	'pi_author_url' => 'http://www.caddis.co',
 	'pi_description' => 'Split a body of content into a set number of sections.',
 	'pi_usage' => Splitee::usage()
@@ -49,7 +49,7 @@ class Splitee {
 		$this->return_data = $result;
 	}
 
-	function usage()
+	public static function usage()
 	{
 		ob_start();
 ?>
